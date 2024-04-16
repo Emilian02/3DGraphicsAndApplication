@@ -1,13 +1,14 @@
-C:\Users\LCV2242522\source\repos\3DGraphicsAndApplication\Pix\Pix\CmdDrawPixel.cpp;C:\Users\LCV2242522\source\repos\3DGraphicsAndApplication\Pix\Pix\x64\Debug\CmdDrawPixel.obj
-C:\Users\LCV2242522\source\repos\3DGraphicsAndApplication\Pix\Pix\CmdSetColor.cpp;C:\Users\LCV2242522\source\repos\3DGraphicsAndApplication\Pix\Pix\x64\Debug\CmdSetColor.obj
-C:\Users\LCV2242522\source\repos\3DGraphicsAndApplication\Pix\Pix\CmdSetResolution.cpp;C:\Users\LCV2242522\source\repos\3DGraphicsAndApplication\Pix\Pix\x64\Debug\CmdSetResolution.obj
-C:\Users\LCV2242522\source\repos\3DGraphicsAndApplication\Pix\Pix\CmdVarFloat.cpp;C:\Users\LCV2242522\source\repos\3DGraphicsAndApplication\Pix\Pix\x64\Debug\CmdVarFloat.obj
-C:\Users\LCV2242522\source\repos\3DGraphicsAndApplication\Pix\Pix\CommandDictionary.cpp;C:\Users\LCV2242522\source\repos\3DGraphicsAndApplication\Pix\Pix\x64\Debug\CommandDictionary.obj
-C:\Users\LCV2242522\source\repos\3DGraphicsAndApplication\Pix\Pix\Graphics.cpp;C:\Users\LCV2242522\source\repos\3DGraphicsAndApplication\Pix\Pix\x64\Debug\Graphics.obj
-C:\Users\LCV2242522\source\repos\3DGraphicsAndApplication\Pix\Pix\PixEditor.cpp;C:\Users\LCV2242522\source\repos\3DGraphicsAndApplication\Pix\Pix\x64\Debug\PixEditor.obj
-C:\Users\LCV2242522\source\repos\3DGraphicsAndApplication\Pix\Pix\Rasterizer.cpp;C:\Users\LCV2242522\source\repos\3DGraphicsAndApplication\Pix\Pix\x64\Debug\Rasterizer.obj
-C:\Users\LCV2242522\source\repos\3DGraphicsAndApplication\Pix\Pix\ScriptParser.cpp;C:\Users\LCV2242522\source\repos\3DGraphicsAndApplication\Pix\Pix\x64\Debug\ScriptParser.obj
-C:\Users\LCV2242522\source\repos\3DGraphicsAndApplication\Pix\Pix\TextEditor.cpp;C:\Users\LCV2242522\source\repos\3DGraphicsAndApplication\Pix\Pix\x64\Debug\TextEditor.obj
-C:\Users\LCV2242522\source\repos\3DGraphicsAndApplication\Pix\Pix\VariableCache.cpp;C:\Users\LCV2242522\source\repos\3DGraphicsAndApplication\Pix\Pix\x64\Debug\VariableCache.obj
-C:\Users\LCV2242522\source\repos\3DGraphicsAndApplication\Pix\Pix\Viewport.cpp;C:\Users\LCV2242522\source\repos\3DGraphicsAndApplication\Pix\Pix\x64\Debug\Viewport.obj
-C:\Users\LCV2242522\source\repos\3DGraphicsAndApplication\Pix\Pix\WinMain.cpp;C:\Users\LCV2242522\source\repos\3DGraphicsAndApplication\Pix\Pix\x64\Debug\WinMain.obj
+F:\Escritorio\VGP-Homework\3DGraphics\3DGraphicsAndApplication\This is dumb\Pix\Pix\CmdDrawPixel.cpp;F:\Escritorio\VGP-Homework\3DGraphics\3DGraphicsAndApplication\This is dumb\Pix\Pix\x64\Debug\CmdDrawPixel.obj
+F:\Escritorio\VGP-Homework\3DGraphics\3DGraphicsAndApplication\This is dumb\Pix\Pix\CmdSetColor.cpp;F:\Escritorio\VGP-Homework\3DGraphics\3DGraphicsAndApplication\This is dumb\Pix\Pix\x64\Debug\CmdSetColor.obj
+F:\Escritorio\VGP-Homework\3DGraphics\3DGraphicsAndApplication\This is dumb\Pix\Pix\CmdSetResolution.cpp;F:\Escritorio\VGP-Homework\3DGraphics\3DGraphicsAndApplication\This is dumb\Pix\Pix\x64\Debug\CmdSetResolution.obj
+F:\Escritorio\VGP-Homework\3DGraphics\3DGraphicsAndApplication\This is dumb\Pix\Pix\CmdVarFloat.cpp;F:\Escritorio\VGP-Homework\3DGraphics\3DGraphicsAndApplication\This is dumb\Pix\Pix\x64\Debug\CmdVarFloat.obj
+F:\Escritorio\VGP-Homework\3DGraphics\3DGraphicsAndApplication\This is dumb\Pix\Pix\CommandDictionary.cpp;F:\Escritorio\VGP-Homework\3DGraphics\3DGraphicsAndApplication\This is dumb\Pix\Pix\x64\Debug\CommandDictionary.obj
+F:\Escritorio\VGP-Homework\3DGraphics\3DGraphicsAndApplication\This is dumb\Pix\Pix\Graphics.cpp;F:\Escritorio\VGP-Homework\3DGraphics\3DGraphicsAndApplication\This is dumb\Pix\Pix\x64\Debug\Graphics.obj
+F:\Escritorio\VGP-Homework\3DGraphics\3DGraphicsAndApplication\This is dumb\Pix\Pix\MathHelper.cpp;F:\Escritorio\VGP-Homework\3DGraphics\3DGraphicsAndApplication\This is dumb\Pix\Pix\x64\Debug\MathHelper.obj
+F:\Escritorio\VGP-Homework\3DGraphics\3DGraphicsAndApplication\This is dumb\Pix\Pix\PixEditor.cpp;F:\Escritorio\VGP-Homework\3DGraphics\3DGraphicsAndApplication\This is dumb\Pix\Pix\x64\Debug\PixEditor.obj
+F:\Escritorio\VGP-Homework\3DGraphics\3DGraphicsAndApplication\This is dumb\Pix\Pix\Rasterizer.cpp;F:\Escritorio\VGP-Homework\3DGraphics\3DGraphicsAndApplication\This is dumb\Pix\Pix\x64\Debug\Rasterizer.obj
+F:\Escritorio\VGP-Homework\3DGraphics\3DGraphicsAndApplication\This is dumb\Pix\Pix\ScriptParser.cpp;F:\Escritorio\VGP-Homework\3DGraphics\3DGraphicsAndApplication\This is dumb\Pix\Pix\x64\Debug\ScriptParser.obj
+F:\Escritorio\VGP-Homework\3DGraphics\3DGraphicsAndApplication\This is dumb\Pix\Pix\TextEditor.cpp;F:\Escritorio\VGP-Homework\3DGraphics\3DGraphicsAndApplication\This is dumb\Pix\Pix\x64\Debug\TextEditor.obj
+F:\Escritorio\VGP-Homework\3DGraphics\3DGraphicsAndApplication\This is dumb\Pix\Pix\VariableCache.cpp;F:\Escritorio\VGP-Homework\3DGraphics\3DGraphicsAndApplication\This is dumb\Pix\Pix\x64\Debug\VariableCache.obj
+F:\Escritorio\VGP-Homework\3DGraphics\3DGraphicsAndApplication\This is dumb\Pix\Pix\Viewport.cpp;F:\Escritorio\VGP-Homework\3DGraphics\3DGraphicsAndApplication\This is dumb\Pix\Pix\x64\Debug\Viewport.obj
+F:\Escritorio\VGP-Homework\3DGraphics\3DGraphicsAndApplication\This is dumb\Pix\Pix\WinMain.cpp;F:\Escritorio\VGP-Homework\3DGraphics\3DGraphicsAndApplication\This is dumb\Pix\Pix\x64\Debug\WinMain.obj

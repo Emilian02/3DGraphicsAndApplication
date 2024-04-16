@@ -1,0 +1,539 @@
+SetResolution(15, 17, 25, true)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(6, 1)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(7, 1)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(8, 1)
+
+-------------------
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(4, 2)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(5, 2)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(6, 2)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(7, 2)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(8, 2)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(9, 2)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(10, 2)
+
+
+------------------
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(3, 3)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(4, 3)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(5, 3)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(6, 3)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(7, 3)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(8, 3)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(9, 3)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(10, 3)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(11, 3)
+
+
+---------------------
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(12, 4)
+
+SetColor(1.0, 1.0, 1.0)
+DrawPixel(11, 4)
+
+SetColor(1.0, 1.0, 1.0)
+DrawPixel(10, 4)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(9, 4)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(8, 4)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(7, 4)
+
+SetColor(1.0, 1.0, 1.0)
+DrawPixel(6, 4)
+
+SetColor(1.0, 1.0, 1.0)
+DrawPixel(5, 4)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(4, 4)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(3, 4)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(2, 4)
+
+----------------------
+
+SetColor(1.0, 1.0, 1.0)
+DrawPixel(12, 5)
+
+SetColor(1.0, 1.0, 1.0)
+DrawPixel(11, 5)
+
+SetColor(1.0, 1.0, 1.0)
+DrawPixel(10, 5)
+
+SetColor(1.0, 1.0, 1.0)
+DrawPixel(9, 5)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(8, 5)
+
+SetColor(1.0, 1.0, 1.0)
+DrawPixel(7, 5)
+
+SetColor(1.0, 1.0, 1.0)
+DrawPixel(6, 5)
+
+SetColor(1.0, 1.0, 1.0)
+DrawPixel(5, 5)
+
+SetColor(1.0, 1.0, 1.0)
+DrawPixel(4, 5)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(3, 5)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(2, 5)
+
+---------------------
+
+SetColor(0.0, 0.0, 1.0)
+DrawPixel(12, 6)
+
+SetColor(0.0, 0.0, 1.0)
+DrawPixel(11, 6)
+
+SetColor(1.0, 1.0, 1.0)
+DrawPixel(10, 6)
+
+SetColor(1.0, 1.0, 1.0)
+DrawPixel(9, 6)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(8, 6)
+
+SetColor(0.0, 0.0, 1.0)
+DrawPixel(7, 6)
+
+SetColor(0.0, 0.0, 1.0)
+DrawPixel(6, 6)
+
+SetColor(1.0, 1.0, 1.0)
+DrawPixel(5, 6)
+
+SetColor(1.0, 1.0, 1.0)
+DrawPixel(4, 6)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(3, 6)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(2, 6)
+
+---------------------
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(13, 7)
+
+SetColor(0.0, 0.0, 1.0)
+DrawPixel(12, 7)
+
+SetColor(0.0, 0.0, 1.0)
+DrawPixel(11, 7)
+
+SetColor(1.0, 1.0, 1.0)
+DrawPixel(10, 7)
+
+SetColor(1.0, 1.0, 1.0)
+DrawPixel(9, 7)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(8, 7)
+
+SetColor(0.0, 0.0, 1.0)
+DrawPixel(7, 7)
+
+SetColor(0.0, 0.0, 1.0)
+DrawPixel(6, 7)
+
+SetColor(1.0, 1.0, 1.0)
+DrawPixel(5, 7)
+
+SetColor(1.0, 1.0, 1.0)
+DrawPixel(4, 7)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(3, 7)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(2, 7)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(1, 7)
+
+---------------------
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(13, 8)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(12, 8)
+
+SetColor(1.0, 1.0, 1.0)
+DrawPixel(11, 8)
+
+SetColor(1.0, 1.0, 1.0)
+DrawPixel(10, 8)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(9, 8)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(8, 8)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(7, 8)
+
+SetColor(1.0, 1.0, 1.0)
+DrawPixel(6, 8)
+
+SetColor(1.0, 1.0, 1.0)
+DrawPixel(5, 8)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(4, 8)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(3, 8)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(2, 8)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(1, 8)
+
+---------------------
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(13, 9)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(12, 9)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(11, 9)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(10, 9)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(9, 9)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(8, 9)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(7, 9)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(6, 9)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(5, 9)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(4, 9)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(3, 9)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(2, 9)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(1, 9)
+
+
+---------------------
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(13, 10)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(12, 10)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(11, 10)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(10, 10)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(9, 10)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(8, 10)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(7, 10)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(6, 10)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(5, 10)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(4, 10)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(3, 10)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(2, 10)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(1, 10)
+
+---------------------
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(13, 11)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(12, 11)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(11, 11)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(10, 11)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(9, 11)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(8, 11)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(7, 11)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(6, 11)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(5, 11)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(4, 11)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(3, 11)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(2, 11)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(1, 11)
+
+---------------------
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(13, 12)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(12, 12)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(11, 12)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(10, 12)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(9, 12)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(8, 12)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(7, 12)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(6, 12)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(5, 12)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(4, 12)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(3, 12)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(2, 12)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(1, 12)
+
+---------------------
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(13, 13)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(12, 13)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(11, 13)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(10, 13)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(9, 13)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(8, 13)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(7, 13)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(6, 13)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(5, 13)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(4, 13)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(3, 13)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(2, 13)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(1, 13)
+
+---------------------
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(13, 14)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(12, 14)
+
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(10, 14)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(9, 14)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(6, 14)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(5, 14)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(4, 14)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(2, 14)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(1, 14)
+
+
+
+---------------------
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(13, 15)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(9, 15)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(6, 15)
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(5, 15)
+
+
+SetColor(1.0, 0.0, 0.0)
+DrawPixel(1, 15)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
