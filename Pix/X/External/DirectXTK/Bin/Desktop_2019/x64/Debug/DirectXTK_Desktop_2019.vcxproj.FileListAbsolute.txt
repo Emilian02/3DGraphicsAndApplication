@@ -3,3 +3,4 @@ D:\PeterStuff\X\Main\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DirectXTK.p
 C:\Users\LCV2242522\Downloads\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DirectXTK.lib
 C:\Users\LCV2242522\source\repos\3DGraphicsAndApplication\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DirectXTK.lib
 F:\Escritorio\VGP-Homework\3DGraphics\3DGraphicsAndApplication\This is dumb\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DirectXTK.lib
+C:\Users\LCV2242522\Desktop\3DGraphicsAndApplication\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DirectXTK.lib

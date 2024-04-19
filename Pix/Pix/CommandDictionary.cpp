@@ -4,6 +4,9 @@
 #include "CmdSetColor.h"
 #include "CmdSetResolution.h"
 #include "CmdVarFloat.h"
+#include "CmdBeginDraw.h"
+#include "CmdEndDraw.h"
+#include "CmdAddVertex.h"
 
 CommandDictionary* CommandDictionary::Get()
 {
@@ -23,8 +26,10 @@ CommandDictionary::CommandDictionary()
 
 	// Rasterization commands
 	RegisterCommand<CmdDrawPixel>();
-
 	RegisterCommand<CmdSetColor>();
+	RegisterCommand<CmdAddVertex>();
+	RegisterCommand<CmdBeginDraw>();
+	RegisterCommand<CmdEndDraw>();
 }
 
 TextEditor::LanguageDefinition CommandDictionary::GenerateLanguageDefinition()
