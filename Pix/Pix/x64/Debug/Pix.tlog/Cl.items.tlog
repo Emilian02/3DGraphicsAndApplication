@@ -1,10 +1,14 @@
+C:\Users\LCV2242522\Desktop\Week3\Pix\Pix\Clipper.cpp;C:\Users\LCV2242522\Desktop\Week3\Pix\Pix\x64\Debug\Clipper.obj
 C:\Users\LCV2242522\Desktop\Week3\Pix\Pix\CmdAddVertex.cpp;C:\Users\LCV2242522\Desktop\Week3\Pix\Pix\x64\Debug\CmdAddVertex.obj
 C:\Users\LCV2242522\Desktop\Week3\Pix\Pix\CmdBeginDraw.cpp;C:\Users\LCV2242522\Desktop\Week3\Pix\Pix\x64\Debug\CmdBeginDraw.obj
 C:\Users\LCV2242522\Desktop\Week3\Pix\Pix\CmdDrawPixel.cpp;C:\Users\LCV2242522\Desktop\Week3\Pix\Pix\x64\Debug\CmdDrawPixel.obj
 C:\Users\LCV2242522\Desktop\Week3\Pix\Pix\CmdEndDraw.cpp;C:\Users\LCV2242522\Desktop\Week3\Pix\Pix\x64\Debug\CmdEndDraw.obj
+C:\Users\LCV2242522\Desktop\Week3\Pix\Pix\CmdSetClipping.cpp;C:\Users\LCV2242522\Desktop\Week3\Pix\Pix\x64\Debug\CmdSetClipping.obj
 C:\Users\LCV2242522\Desktop\Week3\Pix\Pix\CmdSetColor.cpp;C:\Users\LCV2242522\Desktop\Week3\Pix\Pix\x64\Debug\CmdSetColor.obj
 C:\Users\LCV2242522\Desktop\Week3\Pix\Pix\CmdSetFillMode.cpp;C:\Users\LCV2242522\Desktop\Week3\Pix\Pix\x64\Debug\CmdSetFillMode.obj
 C:\Users\LCV2242522\Desktop\Week3\Pix\Pix\CmdSetResolution.cpp;C:\Users\LCV2242522\Desktop\Week3\Pix\Pix\x64\Debug\CmdSetResolution.obj
+C:\Users\LCV2242522\Desktop\Week3\Pix\Pix\CmdSetViewport.cpp;C:\Users\LCV2242522\Desktop\Week3\Pix\Pix\x64\Debug\CmdSetViewport.obj
+C:\Users\LCV2242522\Desktop\Week3\Pix\Pix\CmdShowViewport.cpp;C:\Users\LCV2242522\Desktop\Week3\Pix\Pix\x64\Debug\CmdShowViewport.obj
 C:\Users\LCV2242522\Desktop\Week3\Pix\Pix\CmdVarFloat.cpp;C:\Users\LCV2242522\Desktop\Week3\Pix\Pix\x64\Debug\CmdVarFloat.obj
 C:\Users\LCV2242522\Desktop\Week3\Pix\Pix\CommandDictionary.cpp;C:\Users\LCV2242522\Desktop\Week3\Pix\Pix\x64\Debug\CommandDictionary.obj
 C:\Users\LCV2242522\Desktop\Week3\Pix\Pix\Graphics.cpp;C:\Users\LCV2242522\Desktop\Week3\Pix\Pix\x64\Debug\Graphics.obj
