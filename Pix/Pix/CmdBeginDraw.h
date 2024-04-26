@@ -15,7 +15,7 @@ public:
 			"BeginDraw(Topology)\n"
 			"\n"
 			"- BeginDraw\n."
-			"- BeginDraw\n.";
+			"- Initializes the draw\n.";
 	}
 
 	bool Execute(const std::vector<std::string>& params) override;
