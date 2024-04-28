@@ -110,11 +110,11 @@ bool Clipper::ClipLine(Vertex& v0, Vertex& v1)
         }
         else if (outcodeOut & BIT_LEFT)
         {
-            t = (minX - v0.pos.y) / (v1.pos.y - v0.pos.y);
+            t = (minX - v0.pos.x) / (v1.pos.x - v0.pos.x);
         }
         else if (outcodeOut & BIT_RIGHT)
         {
-            t = (maxX - v0.pos.y) / (v1.pos.y - v0.pos.y);
+            t = (maxX - v0.pos.x) / (v1.pos.x - v0.pos.x);
         }
 
         if (outcodeOut == codeV0)
@@ -133,7 +133,7 @@ bool Clipper::ClipLine(Vertex& v0, Vertex& v1)
     return cullLine;
 }
 
-bool Clipper::ClipTrianlge(std::vector<Vertex>& vertics)
+bool Clipper::ClipTriangle(std::vector<Vertex>& vertics)
 {
     if (!mClipping)
     {

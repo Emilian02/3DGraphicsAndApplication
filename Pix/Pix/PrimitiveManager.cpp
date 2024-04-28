@@ -68,7 +68,7 @@ bool PrimitiveManager::EndDraw()
         for (size_t i = 2; i < mVertexBuffer.size(); i += 3)
         {
             std::vector<Vertex> triangle = { mVertexBuffer[i - 2], mVertexBuffer[i - 1], mVertexBuffer[i] };
-            if (!Clipper::Get()->ClipTrianlge(triangle))
+            if (!Clipper::Get()->ClipTriangle(triangle))
             {
                 for (size_t t = 2; t < triangle.size(); ++t)
                 {

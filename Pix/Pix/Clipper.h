@@ -11,7 +11,7 @@ public:
 
     bool ClipPoint(const Vertex& v);
     bool ClipLine(Vertex& v0, Vertex& v1);
-    bool ClipTrianlge(std::vector<Vertex>& vertics);
+    bool ClipTriangle(std::vector<Vertex>& vertics);
 
     bool IsClippin() const { return mClipping; }
     void SetClipping(bool clip) { mClipping = clip; }

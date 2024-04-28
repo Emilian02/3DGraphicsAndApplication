@@ -13,7 +13,7 @@ public:
 	const char* GetDescription() override
 	{
 		return
-			"SetResolution(<clip>)\n"
+			"SetClipping(<clip>)\n"
 			"\n"
 			"- Sets if clipping is enable or not.\n";
 	}
