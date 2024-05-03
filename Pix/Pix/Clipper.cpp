@@ -7,6 +7,15 @@ const short BIT_RIGHT   = 1 << 2;       // 0010
 const short BIT_BOTTOM  = 1 << 3;       // 0100
 const short BIT_TOP     = 1 << 4;       // 1000 
 
+enum class ClipEdge : short
+{
+    Left,
+    Top,
+    Right,
+    Bottom,
+    Count
+};
+
 short GetOutputCode(float x, float y)
 {
     Viewport* vp = Viewport::Get();
@@ -30,6 +39,51 @@ short GetOutputCode(float x, float y)
     }
 
     return code;
+}
+
+bool IsInFront(ClipEdge edge, const Vector3& pos)
+{
+    switch (edge)
+    {
+    case ClipEdge::Left: return pos.x > Viewport::Get()->GetMinX();
+    case ClipEdge::Top: return pos.y > Viewport::Get()->GetMinY();
+    case ClipEdge::Right: return pos.x < Viewport::Get()->GetMaxX();
+    case ClipEdge::Bottom: return pos.y < Viewport::Get()->GetMaxY();
+    default:
+        break;
+    }
+
+    return false;
+}
+
+Vertex ComputeIntersection(ClipEdge edge, const Vertex& v, const Vertex& vp1)
+{
+    float t = 0.0f;
+    switch (edge)
+    {
+    case ClipEdge::Left:
+    {
+        t = (Viewport::Get()->GetMinX() - v.pos.x) / (vp1.pos.x - v.pos.x);
+    }
+    break;
+    case ClipEdge::Top:
+    {
+        t = (Viewport::Get()->GetMinY() - v.pos.y) / (vp1.pos.y - v.pos.y);
+    }
+    break;
+    case ClipEdge::Right:
+    {
+        t = (Viewport::Get()->GetMaxX() - v.pos.x) / (vp1.pos.x - v.pos.x);
+    }
+    break;
+    case ClipEdge::Bottom:
+    {
+        t = (Viewport::Get()->GetMaxY() - v.pos.y) / (vp1.pos.y - v.pos.y);
+    }
+    break;
+    }
+
+    return LerpVertex(v, vp1, t);
 }
 
 Clipper* Clipper::Get()
@@ -140,5 +194,44 @@ bool Clipper::ClipTriangle(std::vector<Vertex>& vertics)
         return false;
     }
 
-    return true;
+    std::vector<Vertex> newVertices;
+    for (int i = 0; i < (int)ClipEdge::Count; i++)
+    {
+        newVertices.clear();
+        ClipEdge edge = (ClipEdge)i;
+        for (size_t v = 0; v < vertics.size(); ++v)
+        {
+            size_t vp1 = (v + 1) % vertics.size();
+            const Vertex& vertex = vertics[v];
+            const Vertex& vertexP1 = vertics[vp1];
+
+            const bool vIsInFront = IsInFront(edge, vertex.pos);
+            const bool vp1IsInFront = IsInFront(edge, vertexP1.pos);
+
+            //CASE 1: bot are in front
+            if (vIsInFront && vp1IsInFront)
+            {
+                newVertices.push_back(vertexP1);
+            }
+            //CASE 2: both are behind
+            else if (!vIsInFront && !vp1IsInFront)
+            {
+                // don't save anything 
+            }
+            //CASE 3: v in front and vp1 is behind
+            else if (vIsInFront && !vp1IsInFront)
+            {
+                newVertices.push_back(ComputeIntersection(edge, vertex, vertexP1));
+            }
+            //CASE 4: v is behind and vp1 in front
+            else if (!vIsInFront && vp1IsInFront)
+            {
+                newVertices.push_back(ComputeIntersection(edge, vertex, vertexP1));
+                newVertices.push_back(vertexP1);
+            }
+        }
+        vertics = newVertices;
+    }
+
+    return newVertices.empty();
 }

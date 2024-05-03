@@ -7,3 +7,4 @@ C:\Users\LCV2242522\Desktop\3DGraphicsAndApplication\Pix\X\External\DirectXTK\Bi
 C:\Users\LCV2242522\Desktop\Week3\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DirectXTK.lib
 F:\Escritorio\VGP-Homework\3DGraphics\3DGraphicsAndApplication\Why\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DirectXTK.lib
 F:\Escritorio\VGP-Homework\3DGraphics\3DGraphicsAndApplication\New folder\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DirectXTK.lib
+C:\Users\LCV2242522\Desktop\Week4\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DirectXTK.lib

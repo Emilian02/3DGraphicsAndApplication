@@ -3,23 +3,22 @@ SetResolution(50, 50, 10, true)
 SetViewport(10, 10, 30, 30)
 ShowViewport(true)
 SetClipping(true)
+SetFillMode(solid)
 
-BeginDraw(line)
+BeginDraw(triangle)
 
 AddVertex(10, 2, 1, 0, 0)
 AddVertex(20, 20, 0, 1, 0)
-
 AddVertex(35,15, 1, 0.5, 0, 0.25)
-AddVertex(3, 20, 0, 0, 0.1, 1)
 
 AddVertex(5,35, 0, 1, 0.25)
 AddVertex(45, 10, 0.1, 0.7, 0.7)
-
-AddVertex(15,35, 1, 1, 0.25)
 AddVertex(27, 37, 0.1, 0.7, 1)
 
 
 EndDraw()
+
+
 
 
 
