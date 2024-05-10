@@ -16,7 +16,7 @@ public:
 
     ~PrimitiveManager();
 
-    bool BeginDraw(Topology topology);
+    bool BeginDraw(Topology topology, bool applyTransform);
     void AddVertex(const Vertex& vertex);
     bool EndDraw();
 
@@ -26,4 +26,5 @@ private:
     std::vector<Vertex> mVertexBuffer;
     Topology mTopology = Topology::Trianlge;
     bool mDrawBegin = false;
+    bool mApplyTransform = false;
 };
