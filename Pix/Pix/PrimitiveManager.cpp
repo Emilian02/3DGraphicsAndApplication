@@ -2,6 +2,7 @@
 #include "Rasterizer.h"
 #include "Clipper.h"
 #include "Camera.h"
+#include "MatrixStack.h"
 
 extern float gResolutionX;
 extern float gResolutionY;
@@ -14,10 +15,10 @@ namespace
         float hh = gResolutionY * 0.5f;
 
         return Matrix4(
-            hw, 0.0f, 0.0f, 0.0f,
-            0.0f, -hh, 0.0f, 0.0f,
-            0.0f, 0.0f, 0.0f, 0.0f,
-            hw, hh, 0.0f, 1.0f
+              hw, 0.0f, 0.0f, 0.0f,
+            0.0f,  -hh, 0.0f, 0.0f,
+            0.0f, 0.0f, 1.0f, 0.0f,
+              hw,   hh, 0.0f, 1.0f
         );
     }
 }
@@ -39,8 +40,8 @@ PrimitiveManager* PrimitiveManager::Get()
 bool PrimitiveManager::BeginDraw(Topology topology, bool applyTransform)
 {
     mTopology = topology;
-    mDrawBegin = true;
     mApplyTransform = applyTransform;
+    mDrawBegin = true;
     mVertexBuffer.clear();
     return true;
 }
@@ -60,7 +61,7 @@ bool PrimitiveManager::EndDraw()
 
     if (mApplyTransform)
     {
-        Matrix4 matWorld = Matrix4::Identity();
+        Matrix4 matWorld = MatrixStack::Get()->GetTransform();
         Matrix4 matView = Camera::Get()->GetViewMatrix();
         Matrix4 matProj = Camera::Get()->GetProjectionMatrix();
         Matrix4 matScreen = GetScreenMatrix();
@@ -70,6 +71,7 @@ bool PrimitiveManager::EndDraw()
         for (size_t i = 0; i < mVertexBuffer.size(); ++i)
         {
             Vector3 finalPos = MathHelper::TransformCoord(mVertexBuffer[i].pos, matFinal);
+            MathHelper::FlattenVector(finalPos);
             mVertexBuffer[i].pos = finalPos;
         }
     }

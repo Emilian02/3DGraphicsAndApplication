@@ -16,7 +16,7 @@ public:
 
     ~PrimitiveManager();
 
-    bool BeginDraw(Topology topology, bool applyTransform);
+    bool BeginDraw(Topology topology, bool applyTransform = false);
     void AddVertex(const Vertex& vertex);
     bool EndDraw();
 

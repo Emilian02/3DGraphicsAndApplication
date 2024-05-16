@@ -1,0 +1,23 @@
+#pragma once
+
+#include "Command.h"
+
+
+class CmdSetCameraFOV : public Command
+{
+public:
+	const char* GetName() override
+	{
+		return "SetCameraFOV";
+	}
+
+	const char* GetDescription() override
+	{
+		return
+			"SetCameraFOV(deg)\n"
+			"\n"
+			"- Sets camera FOV (deg).";
+	}
+
+	bool Execute(const std::vector<std::string>& params) override;
+};

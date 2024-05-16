@@ -14,10 +14,10 @@ public:
 	const char* GetDescription() override
 	{
 		return
-			"DrawPixel(x, y)\n"
+			"SetCameraPosition(x, y, z)\n"
 			"\n"
-			"- Draws a single pixel at position (x, y).";
+			"- Sets camera position (x, y, z).";
 	}
 
 	bool Execute(const std::vector<std::string>& params) override;
-};
+}; 
