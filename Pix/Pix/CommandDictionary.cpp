@@ -13,6 +13,7 @@
 #include "CmdSetViewport.h"
 #include "CmdShowViewport.h"
 #include "CmdSetClipping.h"
+#include "CmdEnableDepth.h"
 
 #include "CmdSetCameraPosition.h"
 #include "CmdSetCameraDirection.h"
@@ -42,6 +43,7 @@ CommandDictionary::CommandDictionary()
 	RegisterCommand<CmdSetViewport>();
 	RegisterCommand<CmdShowViewport>();
 	RegisterCommand<CmdSetClipping>();
+	RegisterCommand<CmdEnableDepth>();
 
 	//Camera settings
 	RegisterCommand<CmdSetCameraPosition>();
