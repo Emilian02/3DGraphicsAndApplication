@@ -9,3 +9,4 @@ F:\Escritorio\VGP-Homework\3DGraphics\3DGraphicsAndApplication\Why\Pix\X\Externa
 F:\Escritorio\VGP-Homework\3DGraphics\3DGraphicsAndApplication\New folder\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DirectXTK.lib
 C:\Users\LCV2242522\Desktop\Week4\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DirectXTK.lib
 F:\Escritorio\VGP-Homework\3DGraphics\Fuck\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DirectXTK.lib
+C:\Users\LCV2242522\Desktop\Week7\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DirectXTK.lib

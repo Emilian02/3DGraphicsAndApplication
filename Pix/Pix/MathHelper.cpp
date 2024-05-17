@@ -62,14 +62,14 @@ float MathHelper::Lerp(float a, float b, float t)
 
 void MathHelper::FlattenVector(Vector3& v)
 {
-    v.x = floor(v.x + 5.0f);
-    v.y = floor(v.y + 5.0f);
-    v.z = floor(v.z + 5.0f);
+    v.x = floor(v.x + 0.5f);
+    v.y = floor(v.y + 0.5f);
+    v.z = floor(v.z + 0.5f);
 }
 
 Vector3 MathHelper::TransformCoord(const Vector3& v, const Matrix4& m)
 {
-    const float w = (v.x * m._14) + (v.y * m._24) + (v.z * m._34) + (1.0f * m._41);
+    const float w = (v.x * m._14) + (v.y * m._24) + (v.z * m._34) + (1.0f * m._44);
     const float invW = CheckEqual(w, 0.0f) ? 1.0f : 1.0f / w;
     return {
         ((v.x * m._11) + (v.y * m._21) + (v.z * m._31) + (1.0f * m._41)) * invW,
