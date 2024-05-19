@@ -13,9 +13,9 @@ public:
 	const char* GetDescription() override
 	{
 		return
-			"EnableDepth(<boo>)\n"
+			"EnableDepth(<bool>)\n"
 			"\n"
-			"- Sets the depth.\n";
+			"- Enable/Disable depth buffer.\n";
 	}
 
 	bool Execute(const std::vector<std::string>& params) override;
