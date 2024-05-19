@@ -3,10 +3,30 @@
 
 bool CmdSetCullMode::Execute(const std::vector<std::string>& params)
 {
-	if (params.size() < 1)
-	{
-		return false;
-	}
+    if (params.size() < 1)
+    {
+        return false;
+    }
 
-	return true;
+    CullMode cullMode = CullMode::None;
+
+    if (params[0] == "none")
+    {
+        cullMode = CullMode::None;
+    }
+    else if (params[0] == "back")
+    {
+        cullMode = CullMode::Back;
+    }
+    else if (params[0] == "front")
+    {
+        cullMode = CullMode::Front;
+    }
+    else
+    {
+        return false;
+    }
+
+    PrimitiveManager::Get()->SetCullMode(cullMode);
+    return true;
 }

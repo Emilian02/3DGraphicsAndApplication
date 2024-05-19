@@ -9,6 +9,7 @@
 #include "CmdEndDraw.h"
 #include "CmdAddVertex.h"
 #include "CmdSetFillMode.h"
+#include "CmdSetCullMode.h"
 
 #include "CmdSetViewport.h"
 #include "CmdShowViewport.h"
@@ -69,6 +70,7 @@ CommandDictionary::CommandDictionary()
 	RegisterCommand<CmdBeginDraw>();
 	RegisterCommand<CmdEndDraw>();
 	RegisterCommand<CmdSetFillMode>();
+	RegisterCommand<CmdSetCullMode>();
 }
 
 TextEditor::LanguageDefinition CommandDictionary::GenerateLanguageDefinition()

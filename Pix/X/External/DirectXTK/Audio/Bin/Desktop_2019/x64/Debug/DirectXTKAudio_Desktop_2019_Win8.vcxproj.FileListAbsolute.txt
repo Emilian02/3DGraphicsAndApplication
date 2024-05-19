@@ -10,3 +10,4 @@ F:\Escritorio\VGP-Homework\3DGraphics\3DGraphicsAndApplication\New folder\Pix\X\
 C:\Users\LCV2242522\Desktop\Week4\Pix\X\External\DirectXTK\Audio\Bin\Desktop_2019\x64\Debug\DirectXTKAudioWin8.lib
 F:\Escritorio\VGP-Homework\3DGraphics\Fuck\Pix\X\External\DirectXTK\Audio\Bin\Desktop_2019\x64\Debug\DirectXTKAudioWin8.lib
 C:\Users\LCV2242522\Desktop\Week7\Pix\X\External\DirectXTK\Audio\Bin\Desktop_2019\x64\Debug\DirectXTKAudioWin8.lib
+F:\Escritorio\VGP-Homework\3DGraphics\Sleepy\Pix\X\External\DirectXTK\Audio\Bin\Desktop_2019\x64\Debug\DirectXTKAudioWin8.lib
