@@ -3,9 +3,9 @@ SetResolution(50, 50, 10, true)
 BeginDraw(triangle)
 SetFillMode(solid)
 
-AddVertex(2, 2, 1, 1, 0, 0)
-AddVertex(45, 10, 0, 1, 1, 0)
-AddVertex(20, 40, 1, 1, 0, 0)
+Vertex(2, 2, 1, 1, 0, 0)
+Vertex(45, 10, 0, 1, 1, 0)
+Vertex(20, 40, 1, 1, 0, 0)
 
 EndDraw()
 

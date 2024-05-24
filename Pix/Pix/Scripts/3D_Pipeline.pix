@@ -35,22 +35,22 @@ PushScaling(1, 1, 1)
 BeginDraw(triangle, true)
 
 //Front 
-AddVertex(-1, -1, 1, 0, 1, 0)
-AddVertex(-1, 1, 1, 0, 1, 0)
-AddVertex(1, 1, 1, 0, 1, 0)
+Vertex(-1, -1, 1, 0, 1, 0)
+Vertex(-1, 1, 1, 0, 1, 0)
+Vertex(1, 1, 1, 0, 1, 0)
 
-AddVertex(-1, -1, 1, 0, 0, 1)
-AddVertex(1, 1, 1, 0, 0, 1)
-AddVertex(1, -1, 1, 0, 0, 1)
+Vertex(-1, -1, 1, 0, 0, 1)
+Vertex(1, 1, 1, 0, 0, 1)
+Vertex(1, -1, 1, 0, 0, 1)
 
 //Right
-AddVertex(1, -1, -1, 1, 0, 1)
-AddVertex(1, 1, -1, 1, 0, 1)
-AddVertex(1, 1, 1, 1, 0, 1)
+Vertex(1, -1, -1, 1, 0, 1)
+Vertex(1, 1, -1, 1, 0, 1)
+Vertex(1, 1, 1, 1, 0, 1)
 
-AddVertex(1, -1, -1, 1, 1, 0)
-AddVertex(1, 1, 1, 1, 1, 0)
-AddVertex(1, -1, 1, 1, 1, 0)
+Vertex(1, -1, -1, 1, 1, 0)
+Vertex(1, 1, 1, 1, 1, 0)
+Vertex(1, -1, 1, 1, 1, 0)
 
 EndDraw()
 

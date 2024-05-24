@@ -7,13 +7,13 @@ SetFillMode(solid)
 
 BeginDraw(triangle)
 
-AddVertex(10, 2, 1, 0, 0)
-AddVertex(20, 20, 0, 1, 0)
-AddVertex(35,15, 1, 0.5, 0, 0.25)
+Vertex(10, 2, 1, 0, 0)
+Vertex(20, 20, 0, 1, 0)
+Vertex(35,15, 1, 0.5, 0, 0.25)
 
-AddVertex(5,35, 0, 1, 0.25)
-AddVertex(45, 10, 0.1, 0.7, 0.7)
-AddVertex(27, 37, 0.1, 0.7, 1)
+Vertex(5,35, 0, 1, 0.25)
+Vertex(45, 10, 0.1, 0.7, 0.7)
+Vertex(27, 37, 0.1, 0.7, 1)
 
 
 EndDraw()
