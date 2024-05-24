@@ -22,12 +22,16 @@
 #include "CmdSetCameraNear.h"
 #include "CmdSetCameraFOV.h"
 
+#include "CmdLights.h"
+#include "CmdMaterial.h"
+
 #include "CmdPushTranslation.h"
 #include "CmdPushScaling.h"
 #include "CmdPushRotationX.h"
 #include "CmdPushRotationY.h"
 #include "CmdPushRotationZ.h"
 #include "CmdPopMatrix.h"
+
 
 CommandDictionary* CommandDictionary::Get()
 {
@@ -53,7 +57,6 @@ CommandDictionary::CommandDictionary()
 	RegisterCommand<CmdSetCameraNear>();
 	RegisterCommand<CmdSetCameraFOV>();
 
-
 	// Variable commands
 	RegisterCommand<CmdVarFloat>();
 	RegisterCommand<CmdPushTranslation>();
@@ -62,6 +65,19 @@ CommandDictionary::CommandDictionary()
 	RegisterCommand<CmdPushRotationY>();
 	RegisterCommand<CmdPushRotationZ>();
 	RegisterCommand<CmdPopMatrix>();
+
+	//Lighs
+	RegisterCommand<CmdSetLightAmbient>();
+	RegisterCommand<CmdSetLightDiffuse>();
+	RegisterCommand<CmdSetLightSpecular>();
+	RegisterCommand<CmdAddDirectionalLight>();
+
+	//Material
+	RegisterCommand<CmdSetMaterialAmbient>();
+	RegisterCommand<CmdSetMaterialDiffuse>();
+	RegisterCommand<CmdSetMaterialSpecular>();
+	RegisterCommand<CmdSetMaterialEmissive>();
+	RegisterCommand<CmdSetMaterialShininess>();
 
 	// Rasterization commands
 	RegisterCommand<CmdDrawPixel>();

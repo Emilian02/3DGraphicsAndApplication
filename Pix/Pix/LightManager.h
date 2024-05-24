@@ -14,6 +14,9 @@ public:
     void SetLigthingDiffuse(const X::Color& color);
     void SetLigthingSpecular(const X::Color& color);
 
+    void AddDirectionLight(const Vector3& direction);
+    void AddPointLight(const Vector3& position, float constant, float linear, float qudratic);
+
     X::Color ComputeLightColor(const Vector3& position, const Vector3& normal) const;
 
 private:
