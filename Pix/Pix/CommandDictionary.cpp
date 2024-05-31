@@ -71,6 +71,8 @@ CommandDictionary::CommandDictionary()
 	RegisterCommand<CmdSetLightDiffuse>();
 	RegisterCommand<CmdSetLightSpecular>();
 	RegisterCommand<CmdAddDirectionalLight>();
+	RegisterCommand<CmdAddPointLight>();
+	RegisterCommand<CmdAddSpotLight>();
 
 	//Material
 	RegisterCommand<CmdSetMaterialAmbient>();

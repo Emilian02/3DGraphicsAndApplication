@@ -117,7 +117,7 @@ void Rasterizer::DrawFilledTriangle(const Vertex& v0, const Vertex& v1, const Ve
     {
         DrawLine(v0, v2);
     }
-    if (MathHelper::CheckEqual(v0.pos.y, v1.pos.y))
+    else if (MathHelper::CheckEqual(v0.pos.y, v1.pos.y))
     {
         for (int y = startY; y <= endY; y++)
         {
