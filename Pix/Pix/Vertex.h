@@ -5,17 +5,22 @@
 struct Vertex
 {
 	Vector3 pos;
+	Vector3 posWorld;
 	Vector3 norm;
 	X::Color color;
 };
 
-inline static Vector3 LerpPosition(const Vector3& a, const Vector3& b, float t)
+inline static Vector3 LerpPosition(const Vector3& a, const Vector3& b, float t, bool toPixel = true)
 {
 	Vector3 pos;
-	pos.x = floorf(MathHelper::Lerp(a.x, b.x, t) + 0.5f);
-	pos.y = floorf(MathHelper::Lerp(a.y, b.y, t) + 0.5f);
+	pos.x = MathHelper::Lerp(a.x, b.x, t);
+	pos.y = MathHelper::Lerp(a.y, b.y, t);
 	pos.z = MathHelper::Lerp(a.z, b.z, t);
-
+	if (toPixel)
+	{
+		pos.x = floorf(pos.x + 0.5f);
+		pos.y = floorf(pos.y + 0.5f);
+	}
 	return pos;
 }
 
@@ -48,6 +53,7 @@ inline static Vertex LerpVertex(const Vertex& a, const Vertex& b, float t, bool 
 
 	if (lerpNorm)
 	{
+		vertex.posWorld = LerpPosition(a.posWorld, b.posWorld, t, false);
 		vertex.norm = LerpNormal(a.norm, b.norm, t);
 	}
 

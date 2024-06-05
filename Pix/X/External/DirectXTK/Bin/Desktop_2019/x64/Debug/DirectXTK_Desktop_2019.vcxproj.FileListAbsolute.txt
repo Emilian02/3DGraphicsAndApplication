@@ -12,3 +12,4 @@ F:\Escritorio\VGP-Homework\3DGraphics\Fuck\Pix\X\External\DirectXTK\Bin\Desktop_
 C:\Users\LCV2242522\Desktop\Week7\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DirectXTK.lib
 F:\Escritorio\VGP-Homework\3DGraphics\Sleepy\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DirectXTK.lib
 C:\Users\LCV2242522\Desktop\Week8\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DirectXTK.lib
+F:\Escritorio\VGP-Homework\3DGraphics\Sleepy2\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DirectXTK.lib

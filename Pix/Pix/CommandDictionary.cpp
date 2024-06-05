@@ -10,6 +10,7 @@
 #include "CmdAddVertex.h"
 #include "CmdSetFillMode.h"
 #include "CmdSetCullMode.h"
+#include "CmdSetShadeMode.h"
 
 #include "CmdSetViewport.h"
 #include "CmdShowViewport.h"
@@ -24,6 +25,7 @@
 
 #include "CmdLights.h"
 #include "CmdMaterial.h"
+#include "CmdModel.h"
 
 #include "CmdPushTranslation.h"
 #include "CmdPushScaling.h"
@@ -65,6 +67,7 @@ CommandDictionary::CommandDictionary()
 	RegisterCommand<CmdPushRotationY>();
 	RegisterCommand<CmdPushRotationZ>();
 	RegisterCommand<CmdPopMatrix>();
+	RegisterCommand<CmdModel>();
 
 	//Lighs
 	RegisterCommand<CmdSetLightAmbient>();
@@ -89,6 +92,7 @@ CommandDictionary::CommandDictionary()
 	RegisterCommand<CmdEndDraw>();
 	RegisterCommand<CmdSetFillMode>();
 	RegisterCommand<CmdSetCullMode>();
+	RegisterCommand<CmdSetShadeMode>();
 }
 
 TextEditor::LanguageDefinition CommandDictionary::GenerateLanguageDefinition()
