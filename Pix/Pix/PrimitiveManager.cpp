@@ -63,11 +63,17 @@ PrimitiveManager* PrimitiveManager::Get()
 void PrimitiveManager::OnNewFrame()
 {
     mCullMode = CullMode::None;
+    mCorrectUV = false;
 }
 
 void PrimitiveManager::SetCullMode(CullMode mode)
 {
     mCullMode = mode;
+}
+
+void PrimitiveManager::SetCorrectUV(bool correctUV)
+{
+    mCorrectUV = correctUV;
 }
 
 bool PrimitiveManager::BeginDraw(Topology topology, bool applyTransform)
@@ -151,14 +157,28 @@ bool PrimitiveManager::EndDraw()
                         triangle[t].norm = faceNormal;
                     }
                 }
-
-                //apply vertex lighting if applicable
-                if (Rasterizer::Get()->GetShadeMode() == ShadeMode::Flat ||
-                    Rasterizer::Get()->GetShadeMode() == ShadeMode::Gouraud)
+                //if not a UV, add lighting
+                if (triangle[0].color.z >= 0.0f)
+                {
+                    //apply vertex lighting if applicable
+                    if (Rasterizer::Get()->GetShadeMode() == ShadeMode::Flat ||
+                        Rasterizer::Get()->GetShadeMode() == ShadeMode::Gouraud)
+                    {
+                        for (size_t t = 0; t < triangle.size(); ++t)
+                        {
+                            triangle[t].color *= LightManager::Get()->ComputeLightColor(triangle[t].pos, triangle[t].norm);
+                        }
+                    }
+                }
+                else if (mCorrectUV)
                 {
                     for (size_t t = 0; t < triangle.size(); ++t)
                     {
-                        triangle[t].color *= LightManager::Get()->ComputeLightColor(triangle[t].pos, triangle[t].norm);
+                        Vector3 viewPos = MathHelper::TransformCoord(triangle[t].pos, matView);
+                        triangle[t].color.x /= viewPos.z;
+                        triangle[t].color.y /= viewPos.z;
+                        triangle[t].color.w = 1.0f / viewPos.z;
+
                     }
                 }
 

@@ -13,3 +13,4 @@ C:\Users\LCV2242522\Desktop\Week7\Pix\X\External\DirectXTK\Audio\Bin\Desktop_201
 F:\Escritorio\VGP-Homework\3DGraphics\Sleepy\Pix\X\External\DirectXTK\Audio\Bin\Desktop_2019\x64\Debug\DirectXTKAudioWin8.lib
 C:\Users\LCV2242522\Desktop\Week8\Pix\X\External\DirectXTK\Audio\Bin\Desktop_2019\x64\Debug\DirectXTKAudioWin8.lib
 F:\Escritorio\VGP-Homework\3DGraphics\Sleepy2\Pix\X\External\DirectXTK\Audio\Bin\Desktop_2019\x64\Debug\DirectXTKAudioWin8.lib
+C:\Users\LCV2242522\Desktop\Sleepy\Pix\X\External\DirectXTK\Audio\Bin\Desktop_2019\x64\Debug\DirectXTKAudioWin8.lib

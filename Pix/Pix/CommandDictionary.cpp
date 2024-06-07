@@ -11,6 +11,7 @@
 #include "CmdSetFillMode.h"
 #include "CmdSetCullMode.h"
 #include "CmdSetShadeMode.h"
+#include "CmdSetCorrectUV.h"
 
 #include "CmdSetViewport.h"
 #include "CmdShowViewport.h"
@@ -26,6 +27,9 @@
 #include "CmdLights.h"
 #include "CmdMaterial.h"
 #include "CmdModel.h"
+#include "CmdSetTexture.h"
+#include "CmdSetAddressMode.h"
+#include "CmdSetUseFilter.h"
 
 #include "CmdPushTranslation.h"
 #include "CmdPushScaling.h"
@@ -68,8 +72,9 @@ CommandDictionary::CommandDictionary()
 	RegisterCommand<CmdPushRotationZ>();
 	RegisterCommand<CmdPopMatrix>();
 	RegisterCommand<CmdModel>();
+	RegisterCommand<CmdSetTexture>();
 
-	//Lighs
+	// Lighs
 	RegisterCommand<CmdSetLightAmbient>();
 	RegisterCommand<CmdSetLightDiffuse>();
 	RegisterCommand<CmdSetLightSpecular>();
@@ -77,12 +82,17 @@ CommandDictionary::CommandDictionary()
 	RegisterCommand<CmdAddPointLight>();
 	RegisterCommand<CmdAddSpotLight>();
 
-	//Material
+	// Material
 	RegisterCommand<CmdSetMaterialAmbient>();
 	RegisterCommand<CmdSetMaterialDiffuse>();
 	RegisterCommand<CmdSetMaterialSpecular>();
 	RegisterCommand<CmdSetMaterialEmissive>();
 	RegisterCommand<CmdSetMaterialShininess>();
+
+	// Texturing
+	RegisterCommand<CmdSetCorrectUV>();
+	RegisterCommand<CmdSetAddressMode>();
+	RegisterCommand <CmdSetUseFilter>();
 
 	// Rasterization commands
 	RegisterCommand<CmdDrawPixel>();

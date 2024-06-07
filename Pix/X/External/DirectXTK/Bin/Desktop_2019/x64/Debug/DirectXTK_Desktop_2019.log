@@ -17,7 +17,7 @@
   EnvironmentMapEffect.cpp
   GamePad.cpp
   GeometricPrimitive.cpp
-F:\Escritorio\VGP-Homework\3DGraphics\Sleepy2\Pix\X\External\DirectXTK\Src\GamePad.cpp(22,21): warning C5264: '`anonymous-namespace'::c_XboxOneThumbDeadZone': 'const' variable is not used
+C:\Users\LCV2242522\Desktop\Sleepy\Pix\X\External\DirectXTK\Src\GamePad.cpp(22,21): warning C5264: '`anonymous-namespace'::c_XboxOneThumbDeadZone': 'const' variable is not used
   (compiling source file '/Src/GamePad.cpp')
   
   Geometry.cpp
@@ -43,4 +43,4 @@ F:\Escritorio\VGP-Homework\3DGraphics\Sleepy2\Pix\X\External\DirectXTK\Src\GameP
   VertexTypes.cpp
   WICTextureLoader.cpp
   Generating Code...
-  DirectXTK_Desktop_2019.vcxproj -> F:\Escritorio\VGP-Homework\3DGraphics\Sleepy2\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DirectXTK.lib
+  DirectXTK_Desktop_2019.vcxproj -> C:\Users\LCV2242522\Desktop\Sleepy\Pix\X\External\DirectXTK\Bin\Desktop_2019\x64\Debug\DirectXTK.lib
