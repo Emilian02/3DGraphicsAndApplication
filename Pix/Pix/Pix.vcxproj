@@ -182,6 +182,7 @@
     <ClCompile Include="CmdMaterial.cpp" />
     <ClCompile Include="CmdModel.cpp" />
     <ClCompile Include="CmdPopMatrix.cpp" />
+    <ClCompile Include="CmdPostProcessing.cpp" />
     <ClCompile Include="CmdPushRotationX.cpp" />
     <ClCompile Include="CmdPushRotationY.cpp" />
     <ClCompile Include="CmdPushRotationZ.cpp" />
@@ -218,8 +219,10 @@
     <ClCompile Include="Model.cpp" />
     <ClCompile Include="ModelManager.cpp" />
     <ClCompile Include="PixEditor.cpp" />
+    <ClCompile Include="PostProcessing.cpp" />
     <ClCompile Include="PrimitiveManager.cpp" />
     <ClCompile Include="Rasterizer.cpp" />
+    <ClCompile Include="RenderTarget.cpp" />
     <ClCompile Include="ScriptParser.cpp" />
     <ClCompile Include="TextEditor.cpp" />
     <ClCompile Include="Texture.cpp" />
@@ -245,6 +248,7 @@
     <ClInclude Include="CmdMaterial.h" />
     <ClInclude Include="CmdModel.h" />
     <ClInclude Include="CmdPopMatrix.h" />
+    <ClInclude Include="CmdPostProcessing.h" />
     <ClInclude Include="CmdPushRotationX.h" />
     <ClInclude Include="CmdPushRotationY.h" />
     <ClInclude Include="CmdPushRotationZ.h" />
@@ -284,8 +288,10 @@
     <ClInclude Include="Model.h" />
     <ClInclude Include="ModelManager.h" />
     <ClInclude Include="PixEditor.h" />
+    <ClInclude Include="PostProcessing.h" />
     <ClInclude Include="PrimitiveManager.h" />
     <ClInclude Include="Rasterizer.h" />
+    <ClInclude Include="RenderTarget.h" />
     <ClInclude Include="ScriptParser.h" />
     <ClInclude Include="TextEditor.h" />
     <ClInclude Include="Texture.h" />

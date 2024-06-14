@@ -1,5 +1,6 @@
 #include "CmdSetResolution.h"
 #include "DepthBuffer.h"
+#include "PostProcessing.h"
 
 #include <XEngine.h>
 
