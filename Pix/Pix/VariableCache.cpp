@@ -73,6 +73,7 @@ void VariableCache::AddFloat(const std::string& name, float value, float speed, 
 	{
 		auto floatVar = std::make_unique<FloatVar>();
 		floatVar->name = name;
+		floatVar->value = value;
 		floatVar->speed = speed;
 		floatVar->min = min;
 		floatVar->max = max;
@@ -108,6 +109,7 @@ void VariableCache::AddInt(const std::string& name, int value, int speed, int mi
 	{
 		auto intVar = std::make_unique<IntVar>();
 		intVar->name = name;
+		intVar->value = value;
 		intVar->speed = speed;
 		intVar->min = min;
 		intVar->max = max;
