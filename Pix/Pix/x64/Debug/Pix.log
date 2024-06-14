@@ -21,41 +21,23 @@ C:\Users\LCV2242522\Desktop\Sleepy\Pix\Pix\CmdPushRotationZ.cpp(13,12): warning 
   CmdPushScaling.cpp
   CmdPushTranslation.cpp
   CmdSetCameraDirection.cpp
+  CmdSetCameraFar.cpp
   CmdSetCameraFOV.cpp
 C:\Users\LCV2242522\Desktop\Sleepy\Pix\Pix\CmdSetCameraFOV.cpp(13,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-  CmdSetCameraFar.cpp
   CmdSetCameraNear.cpp
   CmdSetCameraPosition.cpp
   CmdSetColor.cpp
+  CmdSetCorrectUV.cpp
   CmdSetViewport.cpp
+  CmdVarBool.cpp
   CmdVarFloat.cpp
+  CmdVarInt.cpp
+  CommandDictionary.cpp
   PixEditor.cpp
-  VariableCache.cpp
-C:\Users\LCV2242522\Desktop\Sleepy\Pix\Pix\VariableCache.cpp(64,28): error C2065: 'mFloatVars': undeclared identifier
-C:\Users\LCV2242522\Desktop\Sleepy\Pix\Pix\VariableCache.cpp(64,48): error C2065: 'mFloatVars': undeclared identifier
   Generating Code...
-C:\Users\LCV2242522\Desktop\Sleepy\Pix\Pix\VariableCache.cpp(64,20): error C2672: 'std::find_if': no matching overloaded function found
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\algorithm(373,19):
-  could be '_FwdIt std::find_if(_ExPo &&,_FwdIt,_FwdIt,_Pr) noexcept'
-  	C:\Users\LCV2242522\Desktop\Sleepy\Pix\Pix\VariableCache.cpp(64,20):
-  	'_FwdIt std::find_if(_ExPo &&,_FwdIt,_FwdIt,_Pr) noexcept': expects 4 arguments - 2 provided
-  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(6299,31):
-  or       '_InIt std::find_if(_InIt,const _InIt,_Pr)'
-  	C:\Users\LCV2242522\Desktop\Sleepy\Pix\Pix\VariableCache.cpp(64,20):
-  	'_InIt std::find_if(_InIt,const _InIt,_Pr)': expects 3 arguments - 2 provided
-  
-C:\Users\LCV2242522\Desktop\Sleepy\Pix\Pix\VariableCache.cpp(68,7): error C3536: 'iter': cannot be used before it is initialized
-C:\Users\LCV2242522\Desktop\Sleepy\Pix\Pix\VariableCache.cpp(68,15): error C2065: 'mFloatVars': undeclared identifier
-C:\Users\LCV2242522\Desktop\Sleepy\Pix\Pix\VariableCache.cpp(70,12): error C2100: illegal indirection
-C:\Users\LCV2242522\Desktop\Sleepy\Pix\Pix\VariableCache.cpp(79,6): error C2065: 'mFloatVars': undeclared identifier
-C:\Users\LCV2242522\Desktop\Sleepy\Pix\Pix\VariableCache.cpp(83,19): error C2065: 'mFloatVars': undeclared identifier
-C:\Users\LCV2242522\Desktop\Sleepy\Pix\Pix\VariableCache.cpp(83,2): error C2530: 'var': references must be initialized
-C:\Users\LCV2242522\Desktop\Sleepy\Pix\Pix\VariableCache.cpp(83,2): error C3531: 'var': a symbol whose type contains 'auto' must have an initializer
-C:\Users\LCV2242522\Desktop\Sleepy\Pix\Pix\VariableCache.cpp(83,17): error C2143: syntax error: missing ';' before ':'
-C:\Users\LCV2242522\Desktop\Sleepy\Pix\Pix\VariableCache.cpp(83,29): error C2143: syntax error: missing ';' before ')'
-C:\Users\LCV2242522\Desktop\Sleepy\Pix\Pix\VariableCache.cpp(84,10): error C2660: 'ImGui::DragFloat': function does not take 1 arguments
-  C:\Users\LCV2242522\Desktop\Sleepy\Pix\X\External\ImGui\Inc\imgui.h(451,29):
-  see declaration of 'ImGui::DragFloat'
-  C:\Users\LCV2242522\Desktop\Sleepy\Pix\Pix\VariableCache.cpp(84,10):
-  while trying to match the argument list '()'
-  
+  Compiling...
+  VariableCache.cpp
+C:\Users\LCV2242522\Desktop\Sleepy\Pix\Pix\VariableCache.cpp(30,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+     Creating library C:\Users\LCV2242522\Desktop\Sleepy\Pix\x64\Debug\Pix.lib and object C:\Users\LCV2242522\Desktop\Sleepy\Pix\x64\Debug\Pix.exp
+  Pix.vcxproj -> C:\Users\LCV2242522\Desktop\Sleepy\Pix\x64\Debug\Pix.exe

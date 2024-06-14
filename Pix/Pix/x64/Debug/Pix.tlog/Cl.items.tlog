@@ -31,7 +31,9 @@ C:\Users\LCV2242522\Desktop\Sleepy\Pix\Pix\CmdSetTexture.cpp;C:\Users\LCV2242522
 C:\Users\LCV2242522\Desktop\Sleepy\Pix\Pix\CmdSetUseFilter.cpp;C:\Users\LCV2242522\Desktop\Sleepy\Pix\Pix\x64\Debug\CmdSetUseFilter.obj
 C:\Users\LCV2242522\Desktop\Sleepy\Pix\Pix\CmdSetViewport.cpp;C:\Users\LCV2242522\Desktop\Sleepy\Pix\Pix\x64\Debug\CmdSetViewport.obj
 C:\Users\LCV2242522\Desktop\Sleepy\Pix\Pix\CmdShowViewport.cpp;C:\Users\LCV2242522\Desktop\Sleepy\Pix\Pix\x64\Debug\CmdShowViewport.obj
+C:\Users\LCV2242522\Desktop\Sleepy\Pix\Pix\CmdVarBool.cpp;C:\Users\LCV2242522\Desktop\Sleepy\Pix\Pix\x64\Debug\CmdVarBool.obj
 C:\Users\LCV2242522\Desktop\Sleepy\Pix\Pix\CmdVarFloat.cpp;C:\Users\LCV2242522\Desktop\Sleepy\Pix\Pix\x64\Debug\CmdVarFloat.obj
+C:\Users\LCV2242522\Desktop\Sleepy\Pix\Pix\CmdVarInt.cpp;C:\Users\LCV2242522\Desktop\Sleepy\Pix\Pix\x64\Debug\CmdVarInt.obj
 C:\Users\LCV2242522\Desktop\Sleepy\Pix\Pix\CommandDictionary.cpp;C:\Users\LCV2242522\Desktop\Sleepy\Pix\Pix\x64\Debug\CommandDictionary.obj
 C:\Users\LCV2242522\Desktop\Sleepy\Pix\Pix\DepthBuffer.cpp;C:\Users\LCV2242522\Desktop\Sleepy\Pix\Pix\x64\Debug\DepthBuffer.obj
 C:\Users\LCV2242522\Desktop\Sleepy\Pix\Pix\Graphics.cpp;C:\Users\LCV2242522\Desktop\Sleepy\Pix\Pix\x64\Debug\Graphics.obj
